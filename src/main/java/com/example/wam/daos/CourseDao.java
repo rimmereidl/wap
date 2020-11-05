@@ -1,14 +1,11 @@
-package com.example.springbootwebjpatemplateproject.daos;
+package com.example.wam.daos;
 
-import com.example.springbootwebjpatemplateproject.models.Course;
-import com.example.springbootwebjpatemplateproject.repositories.CourseRepository;
+import com.example.wam.models.Course;
+import com.example.wam.repositories.CourseRepository;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Service;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;
-
-import javax.transaction.Status;
 
 @RestController
 public class CourseDao {

@@ -1,6 +1,6 @@
-package com.example.springbootwebjpatemplateproject.repositories;
+package com.example.wam.repositories;
 
-import com.example.springbootwebjpatemplateproject.models.Movie;
+import com.example.wam.models.Movie;
 import org.springframework.data.repository.CrudRepository;
 
 public interface MovieRepository

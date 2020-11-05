@@ -1,9 +1,9 @@
-package com.example.springbootwebjpatemplateproject.daos;
+package com.example.wam.daos;
 
-import com.example.springbootwebjpatemplateproject.models.Course;
-import com.example.springbootwebjpatemplateproject.models.Section;
-import com.example.springbootwebjpatemplateproject.repositories.CourseRepository;
-import com.example.springbootwebjpatemplateproject.repositories.SectionRepository;
+import com.example.wam.models.Course;
+import com.example.wam.models.Section;
+import com.example.wam.repositories.CourseRepository;
+import com.example.wam.repositories.SectionRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;

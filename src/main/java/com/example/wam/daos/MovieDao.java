@@ -1,13 +1,11 @@
-package com.example.springbootwebjpatemplateproject.daos;
+package com.example.wam.daos;
 
-import com.example.springbootwebjpatemplateproject.models.Movie;
-import com.example.springbootwebjpatemplateproject.repositories.MovieRepository;
+import com.example.wam.models.Movie;
+import com.example.wam.repositories.MovieRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;
-
-import javax.persistence.GeneratedValue;
 
 @RestController
 public class MovieDao {

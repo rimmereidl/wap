@@ -1,4 +1,4 @@
-package com.example.springbootwebjpatemplateproject;
+package com.example.wam;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

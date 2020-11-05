@@ -1,7 +1,7 @@
-package com.example.springbootwebjpatemplateproject.daos;
+package com.example.wam.daos;
 
-import com.example.springbootwebjpatemplateproject.models.Student;
-import com.example.springbootwebjpatemplateproject.repositories.StudentRepository;
+import com.example.wam.models.Student;
+import com.example.wam.repositories.StudentRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;

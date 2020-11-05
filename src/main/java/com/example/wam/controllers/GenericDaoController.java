@@ -1,7 +1,7 @@
-package com.example.springbootwebjpatemplateproject.controllers;
+package com.example.wam.controllers;
 
-import com.example.springbootwebjpatemplateproject.daos.DaoConfig;
-import com.example.springbootwebjpatemplateproject.daos.GenericDao;
+import com.example.wam.daos.DaoConfig;
+import com.example.wam.daos.GenericDao;
 import net.minidev.json.JSONArray;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;

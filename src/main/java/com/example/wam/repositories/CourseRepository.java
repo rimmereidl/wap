@@ -1,6 +1,6 @@
-package com.example.springbootwebjpatemplateproject.repositories;
+package com.example.wam.repositories;
 
-import com.example.springbootwebjpatemplateproject.models.Course;
+import com.example.wam.models.Course;
 import org.springframework.data.repository.CrudRepository;
 
 public interface CourseRepository

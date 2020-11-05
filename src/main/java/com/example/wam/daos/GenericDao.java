@@ -1,4 +1,4 @@
-package com.example.springbootwebjpatemplateproject.daos;
+package com.example.wam.daos;
 
 import java.sql.*;
 

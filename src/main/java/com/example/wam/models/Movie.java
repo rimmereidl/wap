@@ -1,4 +1,4 @@
-package com.example.springbootwebjpatemplateproject.models;
+package com.example.wam.models;
 
 import javax.persistence.*;
 
