@@ -1,7 +1,7 @@
-package com.example.wap.daos;
+package wap.daos;
 
-import com.example.wap.models.Role;
-import com.example.wap.repositories.RoleRepository;
+import wap.models.Role;
+import wap.repositories.RoleRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;

@@ -1,4 +1,4 @@
-package com.example.wap.models;
+package wap.models;
 import javax.persistence.*;
 
 @Entity

@@ -1,6 +1,6 @@
-package com.example.wap.daos;
-import com.example.wap.models.Patron;
-import com.example.wap.repositories.PatronRepository;
+package wap.daos;
+import wap.models.Patron;
+import wap.repositories.PatronRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
