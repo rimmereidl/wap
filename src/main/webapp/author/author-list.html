@@ -1,0 +1,66 @@
+class AuthorList extends React.Component {
+state = {
+authors: []
+}
+
+findAllAuthors = () =>
+findAllAuthors()
+.then(authors => this.setState({authors}))
+
+componentDidMount = () =>
+this.findAllAuthors()
+
+createAuthor = () =>
+createAuthor()
+.then(this.findAllAuthors)
+
+deleteAuthor = (id) =>
+deleteAuthor(id)
+.then(this.findAllAuthors)
+
+render() {
+return(
+<div className="container">
+    <h1>Author List</h1>
+    <table>
+        {
+        this.state.authors.map(author =>
+        <tr key={author.id}>
+            <td>
+                {author.name}
+            </td>
+        </tr>
+        )
+        }
+    </table>
+
+    <button onClick={this.createAuthor}>
+        Create
+    </button>
+    <table>
+        {
+        this.state.authors.map(author =>
+        <tr key={author.id}>
+            <td>
+                {author.name}
+            </td>
+            <td>
+                <button
+                        onClick={() => this.deleteAuthor(author.id)}>
+                Delete
+                </button>
+            </td>
+        </tr>
+        )
+        }
+    </table>
+
+
+</div>
+)
+}
+}
+
+ReactDOM.render(
+<AuthorList/>, document.getElementById("root"))
+

@@ -1,7 +1,7 @@
 
-package com.example.wap.repositories;
+package wap.repositories;
 
-import com.example.wap.models.Patron;
+import wap.models.Patron;
 import org.springframework.data.repository.CrudRepository;
 
 public interface PatronRepository

@@ -1,7 +1,7 @@
-package com.example.wap.daos;
+package wap.daos;
 
-import com.example.wap.models.Book;
-import com.example.wap.repositories.BookRepository;
+import wap.models.Book;
+import wap.repositories.BookRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;

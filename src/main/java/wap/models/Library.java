@@ -1,4 +1,4 @@
-package com.example.wap.models;
+package wap.models;
 
 import javax.persistence.*;
 import java.awt.*;
@@ -12,9 +12,6 @@ public class Library {
   private Integer id;
   private String name;
   private String address;
-
-
-
   public String getName() {
     return name;
   }

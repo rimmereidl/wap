@@ -1,10 +1,10 @@
-package com.example.wap.daos;
-import com.example.wap.models.Librarian;
+package wap.daos;
+import wap.models.Librarian;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;
-import com.example.wap.repositories.LibrarianRepository;
+import wap.repositories.LibrarianRepository;
 
 @RestController
 public class LibrarianDao {

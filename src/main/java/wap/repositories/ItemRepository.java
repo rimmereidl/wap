@@ -1,6 +1,6 @@
-package com.example.wap.repositories;
+package wap.repositories;
 
-import com.example.wap.models.Item;
+import wap.models.Item;
 import org.springframework.data.repository.CrudRepository;
 
 public interface ItemRepository

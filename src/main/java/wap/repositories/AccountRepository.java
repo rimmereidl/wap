@@ -1,6 +1,6 @@
-package com.example.wap.repositories;
+package wap.repositories;
 
-import com.example.wap.models.Account;
+import wap.models.Account;
 import org.springframework.data.repository.CrudRepository;
 
 public interface AccountRepository

@@ -1,4 +1,4 @@
-package com.example.wap.models;
+package wap.models;
 import net.minidev.json.annotate.JsonIgnore;
 
 import javax.persistence.*;
@@ -18,15 +18,23 @@ public class Account {
   private Integer item3;
   private Integer item4;
   private Integer item5;
-private Integer libraryId;
-  @ManyToOne
-  @JsonIgnore
-  private Library library;
-  private Integer patronID;
+ // @ManyToOne
+ // @JoinColumn(name="id")
+ // @JsonIgnore
+  //private Library library;
+ // @OneToMany (mappedby = "patron")
+ // private Patron patron;
+
+
+
+
   public Integer getNumber() {
     return number;
   }
 
+  public void setNumber(Integer number) {
+    this.number = number;
+  }
 
   public Date getOpened() {
     return opened;
@@ -44,35 +52,39 @@ private Integer libraryId;
     this.state = state;
   }
 
-  public int getItem1() {
+  public Integer getItem1() {
     return item1;
   }
 
   public void setItem1(Integer item1) {
     this.item1 = item1;
   }
-  public int getItem2() {
+
+  public Integer getItem2() {
     return item2;
   }
 
   public void setItem2(Integer item2) {
     this.item2 = item2;
   }
-  public int getItem3() {
+
+  public Integer getItem3() {
     return item3;
   }
 
   public void setItem3(Integer item3) {
     this.item3 = item3;
   }
-  public int getItem4() {
+
+  public Integer getItem4() {
     return item4;
   }
 
   public void setItem4(Integer item4) {
     this.item4 = item4;
   }
-  public int getItem5() {
+
+  public Integer getItem5() {
     return item5;
   }
 
@@ -80,20 +92,6 @@ private Integer libraryId;
     this.item5 = item5;
   }
 
-  public int getLibraryID() {
-    return libraryId;
-  }
 
-  public void setLibraryID(Integer libraryID) {
-    this.libraryId = libraryId;
-  }
-
-  public int getPatronID() {
-    return patronID;
-  }
-
-  public void setPatronID(Integer patronID) {
-    this.patronID = patronID;
-  }
 }
 

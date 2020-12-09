@@ -1,7 +1,8 @@
-package com.example.wap.daos;
+package wap.daos;
 
-import com.example.wap.models.Account;
-import com.example.wap.repositories.AccountRepository;
+
+import wap.models.Account;
+import wap.repositories.AccountRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 import org.springframework.web.bind.annotation.GetMapping;
